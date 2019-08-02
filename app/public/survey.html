@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>FriendFinder</title>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+</head>
+
+<body>
+
+<h1>Friendship Survey!</h1>
+
+<form action="/api/newfriend" method="POST">
+    Name:
+    <input type="text" name="name"><br>
+    Link a Photo:
+    <input type="text" name="photo"><br>
+    Question 1: You're an imaginative, creative person.
+    <input type="number" name="q1" min="1" max="5"><br>
+    Question 2: You're an imaginative, creative person.
+    <input type="number" name="q2" min="1" max="5"><br>
+    Question 3: You're an imaginative, creative person.
+    <input type="number" name="q3" min="1" max="5"><br>
+    Question 4: You're an imaginative, creative person.
+    <input type="number" name="q4" min="1" max="5"><br>
+    Question 5: You're an imaginative, creative person.
+    <input type="number" name="q5" min="1" max="5"><br>
+    Question 6: You're an imaginative, creative person.
+    <input type="number" name="q6" min="1" max="5"><br>
+    Question 7: You're an imaginative, creative person.
+    <input type="number" name="q7" min="1" max="5"><br>
+    Question 8: You're an imaginative, creative person.
+    <input type="number" name="q8" min="1" max="5"><br>
+    Question 9: You're an imaginative, creative person.
+    <input type="number" name="q9" min="1" max="5"><br>
+    Question 10: You're an imaginative, creative person.
+    <input type="number" name="q10" min="1" max="5"><br><br>
+    <input type="submit" value="Submit">
+</form>
+
+<!-- Insert a modal here that will pop up the returned results from the friendship-calculating route -->
+</body>
